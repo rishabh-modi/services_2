@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.journaldev.loginphpmysql.provider">
+
+<Spinner
+    android:id="@+id/servicesSpinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="145dp"
+    android:popupBackground="#3D5AFE"/>
+
+<Spinner
+android:id="@+id/locationSpinner"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+    android:layout_centerVertical="true"
+android:popupBackground="#3D5AFE"/>
+
+<Button
+android:id="@+id/submitButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/locationSpinner"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="93dp"
+android:backgroundTint="#3D5AFE"
+android:text="submit"
+android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:text="Select Service"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/servicesSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Select Location"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_above="@+id/locationSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

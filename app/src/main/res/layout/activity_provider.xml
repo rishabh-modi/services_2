@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.journaldev.loginphpmysql.provider"
+    android:background="#6fffff">
+
+
+    <Switch
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/switchStatus"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/switchStatus"
+        android:layout_marginTop="31dp"
+        android:text="Switch"
+        android:textOff="login"
+        android:textOn="register" />
+
+    <TextView
+        android:id="@+id/switchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Login"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="50sp" />
+
+</RelativeLayout>
+
+
